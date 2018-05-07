@@ -2,7 +2,7 @@
 
 *You only need this if you are running a masternode and getting WATCHDOG_EXPIRED*
 
-Please test it and consider it to be a **beta**, something might fail (I don't have desire in Windows).
+Please test it and consider it to be a **beta**, something might fail (I don't have momocash in Windows).
 
 Pick an executable (either win/lin) from https://github.com/momopay/sentinel/releases
 Just for reference, sentinel-win64 virustotal (3/67): https://www.virustotal.com/es/file/3a65c0df1fb89607531d8c02bb2a3070f1c39f555944d118c67d8ee616be5b18/analysis/1510697796/
@@ -55,7 +55,7 @@ If you have followed all the steps and still get WATCHDOG_EXPIRED when issuing "
 
 **1.** Close the wallet
 
-**2.** Delete all files inside "desireconf" except for "wallet.dat" and "momo.conf".
+**2.** Delete all files inside "momocashconf" except for "wallet.dat" and "momo.conf".
 **Please make sure you don't delete wallet.dat! Backup it, for real, that's your coins!**
 
 **3.** Restart wallet, open sentinel-win64.exe, and let it sync!
@@ -68,7 +68,7 @@ If it doesn't work, create an *Issue* with detailed explanations
 
 Pick the appropiate file from [https://github.com/momopay/sentinel/releases](Releases)
 
-Open file `sentinel.conf` and change `momo_conf` to point to your desire configuration file
+Open file `sentinel.conf` and change `momo_conf` to point to your momocash configuration file
 
 Run `sentinel.exe` and keep it open, that's all.
 

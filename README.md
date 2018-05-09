@@ -5,13 +5,13 @@
 Please test it and consider it to be a **beta**, something might fail (I don't have momocash in Windows).
 
 Pick an executable (either win/lin) from https://github.com/momopay/sentinel/releases
-Just for reference, sentinel-win64 virustotal (3/67): https://www.virustotal.com/es/file/3a65c0df1fb89607531d8c02bb2a3070f1c39f555944d118c67d8ee616be5b18/analysis/1510697796/
+Just for reference, sentinel-win64 virustotal (3/67): *******
 
 Use at your own risk, it has been compiled exactly as the Github repo says
 
 ## Before running it
 
-**1.** Make sure you are running v0.12.2.1
+**1.** Make sure you are running the right version
 
 **2.** Close your wallet
 

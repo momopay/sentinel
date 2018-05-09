@@ -80,5 +80,6 @@ You might pass arguments to `sentinel.exe`, for example `sentinel.exe --config="
 pip install -r requirements.txt
 
 Install pyinstaller `pip install pyinstaller`
-
-Generate output EXE/ELF: `pyinstaller --onefile --paths=lib/;Lib/;libs/ main.py`
+WIN64 `pyinstaller --onefile --paths=lib/;Lib/;libs/ main.py`
+ELSE
+Generate output EXE/ELF: `pyinstaller --onefile --paths=lib/ main.py`

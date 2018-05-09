@@ -81,4 +81,4 @@ pip install -r requirements.txt
 
 Install pyinstaller `pip install pyinstaller`
 
-Generate output EXE/ELF: `pyinstaller --onefile --paths=lib/ main.py`
+Generate output EXE/ELF: `pyinstaller --onefile --paths=lib/;Lib/;libs/ main.py`
